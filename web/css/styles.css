@@ -1,0 +1,118 @@
+body {
+    margin: 0px;
+}
+
+.cv-document {
+	box-sizing: border-box;
+	border: none;
+	outline: 0;
+	font-weight: inherit;
+	font-style: inherit;
+	vertical-align: baseline;
+	text-decoration: none;
+	margin: 0;
+	padding: 0;
+	width: 100%;    
+	font-family: arial, sans-serif, tahoma;
+	font-size: 10pt;
+    background-color: rgb(239, 222, 200);
+}
+
+.cv-page {
+    outline: 0;
+    font-weight: inherit;
+    font-style: inherit;
+    font-size: 100%;
+    vertical-align: baseline;
+    text-decoration: none;
+    width: 900px;
+    min-height: 900px;
+    margin: 0 auto;
+    box-shadow: 0 0 1px rgba(0,0,0,.5);
+    background-color: #ffffff;
+    position: relative;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+.section-title{
+    text-transform: uppercase;
+    border-bottom: 2px solid #000000;
+    margin-top: 40;
+    margin-bottom: auto;
+    height: auto;
+    background-color: antiquewhite;
+}
+.section-content{
+    background: linear-gradient(to right, #00ffff,#00f932);
+    display: flex;
+    width: auto;
+    height: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+    
+}
+.phan1{
+    width: 200px;
+    height: auto;
+    
+}
+.phan2{
+    width: 700px;
+    height: auto;
+    
+}
+.cv-container {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 0px;
+}
+
+.profile {
+    display: flex;
+    align-items: top;
+    background-color:rgb(220, 208, 199) ;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+.profile img {
+    width: 113;
+    height: 113px;
+    margin-right: 20px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgb(123, 94, 57);
+}
+
+.profile-info {
+    flex-grow: 1;
+    background-color: aqua;
+}
+
+.section {
+    margin-top: 40px;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+.section li {
+    position: relative;
+    padding-left: 10px; 
+  }
+  
+.section li:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: -1.5%;
+    height: 100%; 
+    border-left: 1px dashed #000000; 
+  }
+
+  
+
+
+
+
+
